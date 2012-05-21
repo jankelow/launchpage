@@ -7,7 +7,6 @@ gem 'rails', '3.1'
 
 gem 'sqlite3'
 gem 'gravatar_image_tag'
-
 gem 'actionpack'
 
 group :development do
