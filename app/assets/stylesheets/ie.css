@@ -1,0 +1,11 @@
+ul {
+text-indent: -30px;
+}
+
+.dialog_content ul {
+text-indent: -41px;
+}
+
+#email .email_submit {
+height:54px;
+}

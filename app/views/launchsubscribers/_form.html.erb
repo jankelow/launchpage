@@ -1,0 +1,19 @@
+<%= form_for(@launchsubscriber) do |f| %>
+  <% if @launchsubscriber.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@launchsubscriber.errors.count, "error") %> prohibited this launchsubscriber from being saved:</h2>
+
+      <ul>
+      <% @launchsubscriber.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= f.text_field :email %>
+    <%= f.submit " "%>
+  </div>
+
+<% end %>

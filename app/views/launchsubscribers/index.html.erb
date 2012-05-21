@@ -1,0 +1,23 @@
+<h1>Listing launchsubscribers</h1>
+
+<table>
+  <tr>
+    <th>Email</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @launchsubscribers.each do |launchsubscriber| %>
+  <tr>
+    <td><%= launchsubscriber.email %></td>
+    <td><%= link_to 'Show', launchsubscriber %></td>
+    <td><%= link_to 'Edit', edit_launchsubscriber_path(launchsubscriber) %></td>
+    <td><%= link_to 'Destroy', launchsubscriber, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Launchsubscriber', new_launchsubscriber_path %>

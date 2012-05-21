@@ -1,0 +1,2 @@
+module LaunchsubscribersHelper
+end

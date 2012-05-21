@@ -1,0 +1,316 @@
+@import url("http://cssksw.com/speizerweb");
+
+body{
+background: #171717;
+font-family: Arial, sans-serif;
+color: #fff;
+
+}
+
+h1 {
+font-size:20px;
+color:#fff;
+font-weight:normal;
+}
+
+ul {
+list-style: square url('../images/bullet.gif') inside;
+padding-left:20px;
+text-indent:-17px;
+}
+
+ul li {
+	font-size:20px;
+	color: #ccc;
+	padding-top:20px;
+	}
+ul li strong {
+	font-size:22px;
+	color:#fff;
+	}
+
+
+#main_wrap{
+	background: url('../images/background.jpg') no-repeat;
+	height:767px;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	
+	}
+
+#main {
+width:978px;
+margin:0 auto;
+padding:0 0 0 5px;
+}
+
+#header_wrap{
+	background: url('../images/header.jpg') no-repeat;
+	width:978px;
+	height:70px;
+}
+	
+#header{
+float:left;
+}
+
+#logo{
+float:left;
+}
+
+#tagline {
+float:right;
+margin: 25px 0 0 50px; 
+}
+
+#content_wrap{
+	background: url('../images/content.png') no-repeat;
+	width:978px;
+	height:409px;
+	margin-top:238px;
+}
+
+#content {
+float:left;
+width:978px;
+}
+
+#left_content{
+float:left;
+margin-top:70px;
+position:relative;
+}
+
+#launch {
+	position:absolute;
+	top:-125px;
+	left:165px;
+	}
+	
+#email {
+	margin-top:40px;
+	
+	}
+
+#email p {
+	font-size:13px;
+	color:#666;
+	margin-bottom:5px;
+	}
+#email .email_input {
+	padding:15px;
+	width:300px;
+	background-color:#666;
+	color:#999;
+	font-size:18px;
+	border:none;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px; 
+	}
+
+#email .email_submit {
+	background: url('../images/go.png') no-repeat;
+	border:none;
+	width:60px;
+	height:55px;
+	cursor:pointer;
+	}
+
+input[type="submit"]
+{
+	background: url('../images/go.png') no-repeat;
+	border:none;
+	width:60px;
+	height:55px;
+	cursor:pointer;	}
+	
+input[type="text"]
+{
+	padding:15px;
+	width:300px;
+	background-color:#666;
+	color:#999;
+	font-size:18px;
+	border:none;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	}
+
+#right_content{
+float:right;
+position:relative;
+}
+
+#learn_more {
+	position:absolute;
+	top:-45px;
+	left:-85px;
+	}
+
+#dial {
+	margin: 85px 138px 0 0;
+	}
+
+.dial_link {
+	text-align:center;
+	position:absolute;
+	}
+.dial_link a {
+	font-size:18px;
+	line-height:22px;
+	text-align:center;
+	color: #fff;
+	text-decoration:none;
+	}
+	
+#dial1 {
+	top:27px;
+	left:50px;
+	}
+#dial2 {
+	top:125px;
+	left:255px;
+	}
+#dial3 {
+	top:255px;
+	left:265px;
+	}
+#dial4 {
+	top:355px;
+	left:75px;
+	}
+#dial5 {
+	top:255px;
+	left:-100px;
+	}
+#dial6 {
+	top:120px;
+	left:-90px;
+	}
+	
+#footer {
+	height:50px;
+	width:100%;
+	}
+#footer p.copyright {
+	font-size:13px;
+	color:#999;
+	float:left;
+	margin-top:15px;
+	}
+#social {
+	float:right;
+	margin: 10px 5px 0 0;
+	}
+
+#social img {
+	display:inline-block;
+	padding-right:8px;
+	}
+.dialog {
+	display:none;
+
+	}
+
+.close_button {
+position:absolute;
+left:790px;
+top:-15px;
+cursor:pointer;
+}
+#dial1_wrap {
+width:802px;
+height:602px;
+background: url('../images/dialog1/bg.jpg');
+}
+
+#dial2_wrap {
+width:802px;
+height:602px;
+background: url('../images/dialog2/bg.jpg');
+}
+
+#dial3_wrap {
+width:802px;
+height:602px;
+background: url('../images/dialog3/bg.jpg');
+}
+
+#dial4_wrap {
+width:802px;
+height:602px;
+background: url('../images/dialog4/bg.jpg');
+}
+
+#dial5_wrap {
+width:802px;
+height:602px;
+background: url('../images/dialog5/bg.jpg');
+}
+
+#dial6_wrap {
+width:802px;
+height:602px;
+background: url('../images/dialog6/bg.jpg');
+}
+
+.dialog_content {
+padding:90px 0 0 75px;
+width:652px;
+}
+
+.dialog_content h1 {
+	font-size:40px
+	}
+.dialog_content p {
+	padding:25px 0 0 0;
+	font-size:24px;
+	line-height:30px;
+	}
+.dialog_content ul{
+	padding:25px 0 0 75px;
+	width:530px;
+	text-indent:-32px;
+	}
+.dialog_content ul li {
+	font-size:16px;
+	line-height: 18px;
+	padding-top:5px;
+	}
+.dialog_content ul li span {
+	padding-left:15px
+	}
+.navigation {
+	padding:30px 0 0 20px;
+	}
+
+#dial3_wrap ul li, #dial4_wrap ul li,#dial5_wrap ul li,#dial6_wrap ul li {
+	padding-top:15px;
+	}
+
+
+#dial2_wrap .navigation {
+	padding-top:12px
+	}
+	
+
+#dial3_wrap .navigation {
+	padding-top: 60px;
+	}
+#dial4_wrap .navigation {
+	padding-top:30px;
+	}
+
+#dial5_wrap .navigation {
+	padding-top:27px;
+	}
+#dial6_wrap .navigation {
+	padding-top:61px;
+	}
+#preload {
+	display:none;
+	}
+
